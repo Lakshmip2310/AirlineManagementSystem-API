@@ -6,7 +6,7 @@ public class CreateUserUtil {
 
     @NotNull
     @Size(min = 2, max = 20)
-    @Pattern(regexp = "[a-zA-Z][a-zA-Z]*") //^[A-Za-z\\s]+$     ^[\\p{L} .'-]+$       ^[a-zA-Z]+[\-'\s]?[a-zA-Z ]+$
+    @Pattern(regexp = "[a-zA-Z][a-zA-Z]*")
     private String Name;
 
     @NotNull

@@ -13,8 +13,8 @@ public class LoginUtil {
     private String EmailID;
 
     @NotNull
-    @Size(min = 8, max = 20)
-    @Pattern(regexp = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,20}$")//@Pattern(regexp = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&-+=()])(?=\\\\S+$).{8,20}$")
+    //@Size(min = 8, max = 20)
+    @Pattern(regexp = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,20}$")
     private String Password;
 
     public String getEmailID() {
